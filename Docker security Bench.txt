@@ -1,0 +1,3 @@
+docker run -it --net host --pid host -v /var/run/docker.sock:/var/run/docker.sock \
+-v /usr/lib/systemd:/usr/lib/systemd -v /etc:/etc --label security-benchmark \
+diogomonica/docker-bench-security
